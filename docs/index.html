@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Box Upload Blocker</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f1117;
+            color: #e1e4e8;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: #1a1e2a;
+            border: 1px solid #2d3348;
+            border-radius: 16px;
+            padding: 48px;
+            max-width: 480px;
+            width: 90%;
+            text-align: center;
+        }
+        .icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #8b92a5;
+            font-size: 14px;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #3b82f6;
+            color: #fff;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .download-btn:hover { background: #2563eb; }
+        .version {
+            margin-top: 24px;
+            color: #555b6e;
+            font-size: 12px;
+        }
+        .steps {
+            text-align: left;
+            margin-top: 32px;
+            padding-top: 32px;
+            border-top: 1px solid #2d3348;
+        }
+        .steps h2 {
+            font-size: 16px;
+            margin-bottom: 16px;
+            color: #8b92a5;
+        }
+        .steps ol {
+            padding-left: 20px;
+            color: #c0c5d4;
+            font-size: 14px;
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">🛡</div>
+        <h1>Super Box Upload Blocker</h1>
+        <p class="subtitle">Throttle upload bandwidth on your SuperBox S6 Ultra to prevent network saturation.</p>
+        <a href="https://github.com/AuriaJafari1/super-box-upload-blocker/releases/download/v1.0/app-debug.apk" class="download-btn">Download APK</a>
+        <div class="steps">
+            <h2>Installation</h2>
+            <ol>
+                <li>Download the APK using the button above</li>
+                <li>Open the downloaded file on your SuperBox</li>
+                <li>Allow "Install from unknown sources" if prompted</li>
+                <li>Open the app and set your desired upload limit</li>
+                <li>Tap <strong>Enable Throttle</strong> and allow the VPN</li>
+            </ol>
+        </div>
+        <p class="version">Android 12+ &bull; No root required &bull; VPN-based throttle</p>
+    </div>
+</body>
+</html>
